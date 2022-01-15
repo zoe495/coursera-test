@@ -7,80 +7,36 @@ h1{
 	text-align: center;
 	margin: 0px;
 	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
-/*c1*/{
-	/*position: absolute;*/
-	width: 30%;
-	background: grey;
-	margin: 28px;
+div p{
+	margin: 15px;
+	padding-top: 30px;
 }
 
-/*c2*/{
-	/*position: relative;*/
-	width: 30%;
-	left: 420px;
-	bottom: -28px;
-	background: grey;
-	margin: 0px 28px 0px 28px;
+div h2{
+	float: right;
+	border: 1px solid black;
+	padding: 3px;
+	margin: -1px;
 }
 
-/*c3*/{
-	/*position:relative;*/
-	width: 30%;
-	left: 320px;
-	bottom: 145px;	
-	background: grey;
-	margin: 28px;
+div{
+	background-color: #898E8B;
+
 }
 
-div#container1{
-	border:solid black 1px;
+div.col-lg-4.col-md-6.c1>h2 {
+	background-color: #CB85EE;
 }
-div#container2{
-	border: solid black 1px;
+div.col-lg-4.col-md-6.c2>h2 {
+	background-color: #85D5EE;
 }
-div#container3{
-	border: solid black 1px;
-}
+div.col-lg-4.col-md-6.c3>h2 {
+	background-color: #82F2A7;
+} 
 
-#heading1{
-	position: relative;
-	left: 285px;
-	bottom: 1px;
-	border: solid black 1px;
-	background: yellow;
-	width: 98px;
-	margin:0px
-}
-#heading2{
-	position: relative;
-	left: 318px;
-	bottom: 1px;
-	border: solid black 1px;
-	background: orange;
-	width: 60px;
-	margin: 0px;
-}
-#heading3{
-	position: relative;
-	left: 308px;
-	bottom: 1px;
-	border: solid black 1px;
-	background: red;
-	width: 70px;
-	margin: 0px;
-}
-
-p {
-	margin: 10px;
-}
-
-.row {
-	float: left;
-	width: 100%;
-	background-color: orange;
-}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
